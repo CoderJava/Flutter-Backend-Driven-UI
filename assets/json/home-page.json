@@ -1,0 +1,1016 @@
+{
+  "type": "Container",
+  "padding": "0.0,12.0,0.0,0.0",
+  "color": "#FFEEEEEE",
+  "child": {
+    "type": "Column",
+    "children": [
+      {
+        "type": "Padding",
+        "padding": "16.0,0.0,16.0,0.0",
+        "child": {
+          "type": "Row",
+          "crossAxisAlignment": "center",
+          "children": [
+            {
+              "type": "Column",
+              "crossAxisAlignment": "start",
+              "children": [
+                {
+                  "type": "Text",
+                  "data": "Home",
+                  "style": {
+                    "fontWeight": "bold",
+                    "fontSize": 16.01
+                  }
+                },
+                {
+                  "type": "SizedBox",
+                  "height": 4.01
+                },
+                {
+                  "type": "Container",
+                  "width": 20.01,
+                  "height": 2.01,
+                  "decoration": {
+                    "color": "#FF2DC17C",
+                    "borderRadius": "100.0,100.0,100.0,100.0"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "SizedBox",
+              "width": 12.01
+            },
+            {
+              "type": "Column",
+              "crossAxisAlignment": "start",
+              "children": [
+                {
+                  "type": "Text",
+                  "data": "Discovery",
+                  "style": {
+                    "fontSize": 16.01,
+                    "color": "#FF9E9E9E",
+                    "fontWeight": "bold"
+                  }
+                },
+                {
+                  "type": "SizedBox",
+                  "height": 4.01
+                },
+                {
+                  "type": "Container",
+                  "width": 20.01,
+                  "height": 2.01
+                }
+              ]
+            },
+            {
+              "type": "SizedBox",
+              "width": 12.01
+            },
+            {
+              "type": "Expanded",
+              "child": {
+                "type": "Column",
+                "crossAxisAlignment": "start",
+                "children": [
+                  {
+                    "type": "Text",
+                    "data": "Rooms",
+                    "style": {
+                      "fontSize": 16.01,
+                      "color": "#FF9E9E9E",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "height": 4.01
+                  },
+                  {
+                    "type": "Container",
+                    "width": 20.01,
+                    "height": 2.01
+                  }
+                ]
+              }
+            },
+            {
+              "type": "ClipOval",
+              "child": {
+                "type": "NetworkImage",
+                "src": "http://api.bengkelrobot.net:8001/assets/images/img_sample_avatar_2.jpg",
+                "width": 28.01,
+                "height": 28.01,
+                "boxFit": "cover"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "SizedBox",
+        "height": 12.01
+      },
+      {
+        "type": "Expanded",
+        "child": {
+          "type": "ListView",
+          "children": [
+            {
+              "type": "Container",
+              "height": 150.01,
+              "child": {
+                "type": "PageView",
+                "scrollDirection": "horizontal",
+                "children": [
+                  {
+                    "type": "Padding",
+                    "padding": "16.0,0.0,16.0,0.0",
+                    "child": {
+                      "type": "ClipRRect",
+                      "borderRadius": "8.0,8.0,8.0,8.0",
+                      "child": {
+                        "type": "NetworkImage",
+                        "src": "http://api.bengkelrobot.net:8001/assets/images/ariana_grande_landscape.png",
+                        "boxFit": "cover"
+                      }
+                    }
+                  },
+                  {
+                    "type": "Padding",
+                    "padding": "16.0,0.0,16.0,0.0",
+                    "child": {
+                      "type": "ClipRRect",
+                      "borderRadius": "8.0,8.0,8.0,8.0",
+                      "child": {
+                        "type": "NetworkImage",
+                        "src": "http://api.bengkelrobot.net:8001/assets/images/taylor_swift_landscape.png",
+                        "boxFit": "cover"
+                      }
+                    }
+                  },
+                  {
+                    "type": "Padding",
+                    "padding": "16.0,0.0,16.0,0.0",
+                    "child": {
+                      "type": "ClipRRect",
+                      "borderRadius": "8.0,8.0,8.0,8.0",
+                      "child": {
+                        "type": "NetworkImage",
+                        "src": "http://api.bengkelrobot.net:8001/assets/images/avril_lavigne_landscape.png",
+                        "boxFit": "cover"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SizedBox",
+              "height": 12.01
+            },
+            {
+              "type": "Padding",
+              "padding": "16.0,0.0,16.0,0.0",
+              "child": {
+                "type": "Text",
+                "data": "Recently Played",
+                "style": {
+                  "fontWeight": "w500",
+                  "fontSize": 16.01
+                }
+              }
+            },
+            {
+              "type": "SizedBox",
+              "height": 4.01
+            },
+            {
+              "type": "Padding",
+              "padding": "12.0,0.0,12.0,0.0",
+              "child": {
+                "type": "SizedBox",
+                "height": 133.01,
+                "child": {
+                  "type": "Row",
+                  "children": [
+                    {
+                      "type": "Expanded",
+                      "child": {
+                        "type": "Card",
+                        "color": "#FFFFFFFF",
+                        "shape": {
+                          "borderRadius": "8.0,8.0,8.0,8.0"
+                        },
+                        "child": {
+                          "type": "Padding",
+                          "padding": "8.0,8.0,8.0,8.0",
+                          "child": {
+                            "type": "Column",
+                            "mainAxisAlignment": "center",
+                            "children": [
+                              {
+                                "type": "Stack",
+                                "children": [
+                                  {
+                                    "type": "ClipRRect",
+                                    "borderRadius": "8.0,8.0,8.0,8.0",
+                                    "child": {
+                                      "type": "NetworkImage",
+                                      "src": "http://api.bengkelrobot.net:8001/assets/images/img_current_podcast.jpeg",
+                                      "boxFit": "cover",
+                                      "height": 80.01,
+                                      "width": 9999999999.01
+                                    }
+                                  },
+                                  {
+                                    "type": "Container",
+                                    "height": 80.01,
+                                    "decoration": {
+                                      "borderRadius": "8.0,8.0,8.0,8.0",
+                                      "color": "#4C000000"
+                                    }
+                                  },
+                                  {
+                                    "type": "SizedBox",
+                                    "width": 9999999999.01,
+                                    "height": 80.01,
+                                    "child": {
+                                      "type": "Center",
+                                      "child": {
+                                        "type": "Icon",
+                                        "data": "play_arrow",
+                                        "color": "#FFFFFFFF",
+                                        "size": 32.01
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "SizedBox",
+                                "height": 4.01
+                              },
+                              {
+                                "type": "Text",
+                                "data": "Podcasts for you",
+                                "style": {
+                                  "color": "#FF2DC17C",
+                                  "fontWeight": "w500",
+                                  "fontSize": 12.01
+                                }
+                              },
+                              {
+                                "type": "Text",
+                                "data": "Hello Goodbye",
+                                "maxLines": 1,
+                                "overflow": "ellipsis",
+                                "style": {
+                                  "color": "#FF9E9E9E",
+                                  "fontWeight": "w500",
+                                  "fontSize": 12.01
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "Expanded",
+                      "flex": 2,
+                      "child": {
+                        "type": "Column",
+                        "crossAxisAlignment": "stretch",
+                        "children": [
+                          {
+                            "type": "Expanded",
+                            "child": {
+                              "type": "Card",
+                              "color": "#FFFFFFFF",
+                              "shape": {
+                                "borderRadius": "8.0,8.0,8.0,8.0"
+                              },
+                              "child": {
+                                "type": "Row",
+                                "mainAxisAlignment": "center",
+                                "children": [
+                                  {
+                                    "type": "Expanded",
+                                    "child": {
+                                      "type": "Wrap",
+                                      "direction": "vertical",
+                                      "runAlignment": "center",
+                                      "crossAxisAlignment": "center",
+                                      "children": [
+                                        {
+                                          "type": "Icon",
+                                          "data": "mic",
+                                          "color": "#FF2DC17C"
+                                        },
+                                        {
+                                          "type": "Text",
+                                          "data": "Artists",
+                                          "style": {
+                                            "color": "#FF2DC17C",
+                                            "fontWeight": "w500",
+                                            "fontSize": 12.01
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "type": "Expanded",
+                                    "flex": 2,
+                                    "child": {
+                                      "type": "Wrap",
+                                      "direction": "vertical",
+                                      "children": [
+                                        {
+                                          "type": "Text",
+                                          "data": "Everything Has Changed",
+                                          "style": {
+                                            "fontSize": 12.01,
+                                            "fontWeight": "w500"
+                                          }
+                                        },
+                                        {
+                                          "type": "Text",
+                                          "data": "Red",
+                                          "style": {
+                                            "fontSize": 12.01,
+                                            "color": "#FF9E9E9E",
+                                            "fontWeight": "w500"
+                                          }
+                                        },
+                                        {
+                                          "type": "Text",
+                                          "data": "Taylor Swift",
+                                          "style": {
+                                            "fontSize": 12.01,
+                                            "color": "#FF9E9E9E",
+                                            "fontWeight": "w500"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "type": "Expanded",
+                            "child": {
+                              "type": "Row",
+                              "crossAxisAlignment": "stretch",
+                              "children": [
+                                {
+                                  "type": "Expanded",
+                                  "child": {
+                                    "type": "Card",
+                                    "color": "#FFFFFFFF",
+                                    "shape": {
+                                      "borderRadius": "8.0,8.0,8.0,8.0"
+                                    },
+                                    "child": {
+                                      "type": "Center",
+                                      "child": {
+                                        "type": "Wrap",
+                                        "direction": "vertical",
+                                        "crossAxisAlignment": "center",
+                                        "children": [
+                                          {
+                                            "type": "Icon",
+                                            "data": "library_music",
+                                            "color": "#FF2DC17C"
+                                          },
+                                          {
+                                            "type": "SizedBox",
+                                            "height": 4.01
+                                          },
+                                          {
+                                            "type": "Text",
+                                            "data": "Songs",
+                                            "style": {
+                                              "color": "#FF2DC17C",
+                                              "fontWeight": "w500",
+                                              "fontSize": 12.01
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "Expanded",
+                                  "child": {
+                                    "type": "Card",
+                                    "color": "#FFFFFFFF",
+                                    "shape": {
+                                      "borderRadius": "8.0,8.0,8.0,8.0"
+                                    },
+                                    "child": {
+                                      "type": "Center",
+                                      "child": {
+                                        "type": "Wrap",
+                                        "direction": "vertical",
+                                        "crossAxisAlignment": "center",
+                                        "children": [
+                                          {
+                                            "type": "Icon",
+                                            "data": "video_library",
+                                            "color": "#FF2DC17C"
+                                          },
+                                          {
+                                            "type": "SizedBox",
+                                            "height": 4.01
+                                          },
+                                          {
+                                            "type": "Text",
+                                            "data": "Videos",
+                                            "style": {
+                                              "color": "#FF2DC17C",
+                                              "fontWeight": "w500",
+                                              "fontSize": 12.01
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "Expanded",
+                                  "child": {
+                                    "type": "Card",
+                                    "color": "#FFFFFFFF",
+                                    "shape": {
+                                      "borderRadius": "8.0,8.0,8.0,8.0"
+                                    },
+                                    "child": {
+                                      "type": "Center",
+                                      "child": {
+                                        "type": "Wrap",
+                                        "direction": "vertical",
+                                        "crossAxisAlignment": "center",
+                                        "children": [
+                                          {
+                                            "type": "Icon",
+                                            "data": "album",
+                                            "color": "#FF2DC17C"
+                                          },
+                                          {
+                                            "type": "SizedBox",
+                                            "height": 4.01
+                                          },
+                                          {
+                                            "type": "Text",
+                                            "data": "Albums",
+                                            "style": {
+                                              "color": "#FF2DC17C",
+                                              "fontWeight": "w500",
+                                              "fontSize": 12.01
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "SizedBox",
+              "height": 12.01
+            },
+            {
+              "type": "Padding",
+              "padding": "16.0,0.0,16.0,0.0",
+              "child": {
+                "type": "Row",
+                "mainAxisAlignment": "spaceBetween",
+                "crossAxisAlignment": "end",
+                "children": [
+                  {
+                    "type": "Text",
+                    "data": "Made For You",
+                    "style": {
+                      "fontWeight": "w500",
+                      "fontSize": 16.01
+                    }
+                  },
+                  {
+                    "type": "Text",
+                    "data": "View All",
+                    "style": {
+                      "fontWeight": "w500",
+                      "color": "#FF9E9E9E",
+                      "fontSize": 12.01
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SizedBox",
+              "height": 8.01
+            },
+            {
+              "type": "Padding",
+              "padding": "16.0,0.0,16.0,0.0",
+              "child": {
+                "type": "Row",
+                "children": [
+                  {
+                    "type": "Expanded",
+                    "child": {
+                      "type": "Column",
+                      "crossAxisAlignment": "start",
+                      "children": [
+                        {
+                          "type": "ClipRRect",
+                          "borderRadius": "8.0,8.0,8.0,8.0",
+                          "child": {
+                            "type": "NetworkImage",
+                            "src": "https://i.scdn.co/image/ab67616d0000b2738e26bf4293c9da7a6439607b",
+                            "boxFit": "cover",
+                            "width": 9999999999.01,
+                            "height": 100.01
+                          }
+                        },
+                        {
+                          "type": "SizedBox",
+                          "height": 4.01
+                        },
+                        {
+                          "type": "Text",
+                          "data": "Sick Boy",
+                          "style": {
+                            "fontSize": 12.01
+                          }
+                        },
+                        {
+                          "type": "Text",
+                          "data": "The Chainsmokers",
+                          "style": {
+                            "fontSize": 12.01,
+                            "color": "#FF9E9E9E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "width": 8.01
+                  },
+                  {
+                    "type": "Expanded",
+                    "child": {
+                      "type": "Column",
+                      "crossAxisAlignment": "start",
+                      "children": [
+                        {
+                          "type": "ClipRRect",
+                          "borderRadius": "8.0,8.0,8.0,8.0",
+                          "child": {
+                            "type": "NetworkImage",
+                            "src": "https://i.scdn.co/image/ab67616d0000b273db76e31c90e4ccb1fb6bc495",
+                            "boxFit": "cover",
+                            "width": 9999999999.01,
+                            "height": 100.01
+                          }
+                        },
+                        {
+                          "type": "SizedBox",
+                          "height": 4.01
+                        },
+                        {
+                          "type": "Text",
+                          "data": "Back to Life",
+                          "style": {
+                            "fontSize": 12.01
+                          }
+                        },
+                        {
+                          "type": "Text",
+                          "data": "Hailee Steinfeld",
+                          "style": {
+                            "fontSize": 12.01,
+                            "color": "#FF9E9E9E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "width": 8.01
+                  },
+                  {
+                    "type": "Expanded",
+                    "child": {
+                      "type": "Column",
+                      "crossAxisAlignment": "start",
+                      "children": [
+                        {
+                          "type": "ClipRRect",
+                          "borderRadius": "8.0,8.0,8.0,8.0",
+                          "child": {
+                            "type": "NetworkImage",
+                            "src": "https://i.scdn.co/image/ab67616d0000b27359e699338051e7fec4f2139a",
+                            "boxFit": "cover",
+                            "width": 9999999999.01,
+                            "height": 100.01
+                          }
+                        },
+                        {
+                          "type": "SizedBox",
+                          "height": 4.01
+                        },
+                        {
+                          "type": "Text",
+                          "data": "Rare",
+                          "style": {
+                            "fontSize": 12.01
+                          }
+                        },
+                        {
+                          "type": "Text",
+                          "data": "Selena Gomez",
+                          "style": {
+                            "fontSize": 12.01,
+                            "color": "#FF9E9E9E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SizedBox",
+              "height": 12.01
+            },
+            {
+              "type": "Padding",
+              "padding": "16.0,0.0,16.0,0.0",
+              "child": {
+                "type": "Row",
+                "mainAxisAlignment": "spaceBetween",
+                "crossAxisAlignment": "end",
+                "children": [
+                  {
+                    "type": "Text",
+                    "data": "Your Top Podcasts",
+                    "style": {
+                      "fontWeight": "w500",
+                      "fontSize": 16.01
+                    }
+                  },
+                  {
+                    "type": "Text",
+                    "data": "View All",
+                    "style": {
+                      "fontWeight": "w500",
+                      "color": "#FF9E9E9E",
+                      "fontSize": 12.01
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SizedBox",
+              "height": 8.01
+            },
+            {
+              "type": "Padding",
+              "padding": "16.0,0.0,16.0,0.0",
+              "child": {
+                "type": "Row",
+                "children": [
+                  {
+                    "type": "Expanded",
+                    "child": {
+                      "type": "Column",
+                      "crossAxisAlignment": "start",
+                      "children": [
+                        {
+                          "type": "ClipRRect",
+                          "borderRadius": "8.0,8.0,8.0,8.0",
+                          "child": {
+                            "type": "NetworkImage",
+                            "src": "https://i.scdn.co/image/89b2d718b3b6e79f53b54308ac81d48161b16675",
+                            "boxFit": "cover",
+                            "width": 9999999999.01,
+                            "height": 100.01
+                          }
+                        },
+                        {
+                          "type": "SizedBox",
+                          "height": 4.01
+                        },
+                        {
+                          "type": "Text",
+                          "data": "CIAYO Podcast",
+                          "style": {
+                            "fontSize": 12.01
+                          }
+                        },
+                        {
+                          "type": "Text",
+                          "data": "CIAYO Comic",
+                          "style": {
+                            "fontSize": 12.01,
+                            "color": "#FF9E9E9E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "width": 8.01
+                  },
+                  {
+                    "type": "Expanded",
+                    "child": {
+                      "type": "Column",
+                      "crossAxisAlignment": "start",
+                      "children": [
+                        {
+                          "type": "ClipRRect",
+                          "borderRadius": "8.0,8.0,8.0,8.0",
+                          "child": {
+                            "type": "NetworkImage",
+                            "src": "https://i.scdn.co/image/cd1a9313eb09e627c99506b1f1fe571fdb3326bd",
+                            "boxFit": "cover",
+                            "width": 9999999999.01,
+                            "height": 100.01
+                          }
+                        },
+                        {
+                          "type": "SizedBox",
+                          "height": 4.01
+                        },
+                        {
+                          "type": "Text",
+                          "data": "BukaTalks",
+                          "style": {
+                            "fontSize": 12.01
+                          }
+                        },
+                        {
+                          "type": "Text",
+                          "data": "Bukalapak",
+                          "style": {
+                            "fontSize": 12.01,
+                            "color": "#FF9E9E9E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "width": 8.01
+                  },
+                  {
+                    "type": "Expanded",
+                    "child": {
+                      "type": "Column",
+                      "crossAxisAlignment": "start",
+                      "children": [
+                        {
+                          "type": "ClipRRect",
+                          "borderRadius": "8.0,8.0,8.0,8.0",
+                          "child": {
+                            "type": "NetworkImage",
+                            "src": "https://i.scdn.co/image/9ea830480d138e25db156c648ae7369ab530e0f1",
+                            "boxFit": "cover",
+                            "width": 9999999999.01,
+                            "height": 100.01
+                          }
+                        },
+                        {
+                          "type": "SizedBox",
+                          "height": 4.01
+                        },
+                        {
+                          "type": "Text",
+                          "data": "Belajar UX Design",
+                          "style": {
+                            "fontSize": 12.01
+                          }
+                        },
+                        {
+                          "type": "Text",
+                          "data": "Borrys Hasian",
+                          "style": {
+                            "fontSize": 12.01,
+                            "color": "#FF9E9E9E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SizedBox",
+              "height": 12.01
+            },
+            {
+              "type": "Padding",
+              "padding": "16.0,0.0,16.0,0.0",
+              "child": {
+                "type": "Row",
+                "mainAxisAlignment": "spaceBetween",
+                "crossAxisAlignment": "end",
+                "children": [
+                  {
+                    "type": "Text",
+                    "data": "Best Of Artists",
+                    "style": {
+                      "fontWeight": "w500",
+                      "fontSize": 16.01
+                    }
+                  },
+                  {
+                    "type": "Text",
+                    "data": "View All",
+                    "style": {
+                      "fontWeight": "w500",
+                      "color": "#FF9E9E9E",
+                      "fontSize": 12.01
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SizedBox",
+              "height": 8.01
+            },
+            {
+              "type": "Padding",
+              "padding": "16.0,0.0,16.0,0.0",
+              "child": {
+                "type": "Row",
+                "children": [
+                  {
+                    "type": "Expanded",
+                    "child": {
+                      "type": "Column",
+                      "crossAxisAlignment": "start",
+                      "children": [
+                        {
+                          "type": "ClipRRect",
+                          "borderRadius": "8.0,8.0,8.0,8.0",
+                          "child": {
+                            "type": "NetworkImage",
+                            "src": "https://i.scdn.co/image/ab67706f000000026dc792b9d6f99571dc916d13",
+                            "boxFit": "cover",
+                            "width": 9999999999.01,
+                            "height": 100.01
+                          }
+                        },
+                        {
+                          "type": "SizedBox",
+                          "height": 4.01
+                        },
+                        {
+                          "type": "Text",
+                          "data": "This Is Selena Gomez",
+                          "style": {
+                            "fontSize": 12.01
+                          }
+                        },
+                        {
+                          "type": "Text",
+                          "data": "Spotify",
+                          "style": {
+                            "fontSize": 12.01,
+                            "color": "#FF9E9E9E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "width": 8.01
+                  },
+                  {
+                    "type": "Expanded",
+                    "child": {
+                      "type": "Column",
+                      "crossAxisAlignment": "start",
+                      "children": [
+                        {
+                          "type": "ClipRRect",
+                          "borderRadius": "8.0,8.0,8.0,8.0",
+                          "child": {
+                            "type": "NetworkImage",
+                            "src": "https://i.scdn.co/image/ab67706f00000002212c821d293e82eb4bd1ba04",
+                            "boxFit": "cover",
+                            "width": 9999999999.01,
+                            "height": 100.01
+                          }
+                        },
+                        {
+                          "type": "SizedBox",
+                          "height": 4.01
+                        },
+                        {
+                          "type": "Text",
+                          "data": "This Is Avril Lavigne",
+                          "style": {
+                            "fontSize": 12.01
+                          }
+                        },
+                        {
+                          "type": "Text",
+                          "data": "Spotify",
+                          "style": {
+                            "fontSize": 12.01,
+                            "color": "#FF9E9E9E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "width": 8.01
+                  },
+                  {
+                    "type": "Expanded",
+                    "child": {
+                      "type": "Column",
+                      "crossAxisAlignment": "start",
+                      "children": [
+                        {
+                          "type": "ClipRRect",
+                          "borderRadius": "8.0,8.0,8.0,8.0",
+                          "child": {
+                            "type": "NetworkImage",
+                            "src": "https://i.scdn.co/image/ab67706f00000002efdcaeb6d5a53f0628022192",
+                            "boxFit": "cover",
+                            "width": 9999999999.01,
+                            "height": 100.01
+                          }
+                        },
+                        {
+                          "type": "SizedBox",
+                          "height": 4.01
+                        },
+                        {
+                          "type": "Text",
+                          "data": "This Is Rihanna",
+                          "style": {
+                            "fontSize": 12.01
+                          }
+                        },
+                        {
+                          "type": "Text",
+                          "data": "Spotify",
+                          "style": {
+                            "fontSize": 12.01,
+                            "color": "#FF9E9E9E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SizedBox",
+              "height": 12.01
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

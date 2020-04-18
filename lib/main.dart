@@ -1,3 +1,6 @@
+import 'dart:convert';
+
+import 'package:dio/dio.dart';
 import 'package:dynamic_widget/dynamic_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -10,16 +13,16 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MusicPage(),
+      home: HomePage(),
     );
   }
 }
 
-class MusicPage extends StatelessWidget {
+class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      /*body: FutureBuilder(
+      body: FutureBuilder(
         future: _buildWidget(context),
         builder: (context, snapshot) {
           var connectionState = snapshot.connectionState;
@@ -32,15 +35,26 @@ class MusicPage extends StatelessWidget {
               child: CircularProgressIndicator(),
             );
           } else {
-            return Container(
-              width: double.infinity,
-              height: double.infinity,
-              child: snapshot.data,
-            );
+            return SafeArea(child: snapshot.data);
           }
         },
-      ),*/
+      ),
+    );
+  }
 
+  Future<Widget> _buildWidget(BuildContext context) async {
+    var dio = Dio();
+    var response = await dio.get('https://bengkelrobot.net:8003/api/dynamic-widget/home-page');
+    var jsonResponse = json.encode(response.data);
+    return DynamicWidgetBuilder.build(jsonResponse, context, DefaultClickListener());
+  }
+
+}
+
+class MusicPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
       body: SafeArea(
         child: Container(
           padding: const EdgeInsets.only(top: 12.0),
